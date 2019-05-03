@@ -12,6 +12,7 @@ public class EelPortion extends IngredientPortionImpl {
 	public IngredientPortion combine(IngredientPortion other) {
 		if (other == null)  {
 			return this;
+			
 		}
 		
 		if (!getIngredient().equals(other.getIngredient())) {
