@@ -11,6 +11,7 @@ public class A1Adept {
 		double[] PArray = new double[itemCount];
 		String[] itemNme = new String[itemCount];
 		
+		
 		for (int i = 0; i < itemCount; i++) {
 			itemNme[i] = scan.next();
 			PArray[i] = scan.nextDouble();
